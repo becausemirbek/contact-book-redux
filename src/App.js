@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import AddTodo from './components/AddTodo'
-import List from './components/List'
+import Routes from './Routes'
+
 
 function App() {
   return (
     <div>
-      <AddTodo />
-      <List />
+      <Routes />
     </div>
   );
 }
